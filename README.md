@@ -4,38 +4,37 @@ Un rincón creado para dominar las matemáticas financieras sin dolor de cabeza.
 
 ### Simulador Interactivo Financiero
 
-```html
 <!-- Mini Simulador Interactivo Financiero (VDT) -->
-<div style="max-width: 500px; margin: 30px auto; padding: 25px; border-radius: 12px; background-color: #f8f9fa; border: 1px solid #e9ecef; font-family: Arial, sans-serif;">
-  <h3 style="margin-top:0; color: #1a252c; text-align: center;">Simulador Interactivo Financiero</h3>
+<div style="max-width: 500px; margin: 30px auto; padding: 25px; border-radius: 12px; background-color: #f8f9fa; border: 1px solid #e9ecef; font-family: Arial, sans-serif; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+  <h3 style="margin-top:0; color: #1a252c; text-align: center; font-size: 20px;">Simulador Interactivo Financiero</h3>
   
   <div style="margin-bottom: 15px;">
-    <label style="display: block; font-weight: bold; margin-bottom: 5px;">¿Qué deseas calcular?</label>
-    <select id="tipoCalculo" onchange="cambiarModo()" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ced4da;">
+    <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #495057;">¿Qué deseas calcular?</label>
+    <select id="tipoCalculo" onchange="cambiarModo()" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ced4da; font-size: 14px; background-color: #fff;">
       <option value="VF">Valor Futuro (VF) a partir de un Capital Inicial</option>
       <option value="VP">Valor Presente (VP) necesario para una Meta Futura</option>
     </select>
   </div>
 
   <div style="margin-bottom: 15px;">
-    <label id="lblMonto" style="display: block; font-weight: bold; margin-bottom: 5px;">Valor Presente (VP / Capital Inicial):</label>
-    <input type="number" id="monto" value="1000000" style="width: 100%; padding: 9px; border-radius: 6px; border: 1px solid #ced4da; box-sizing: border-box;">
+    <label id="lblMonto" style="display: block; font-weight: bold; margin-bottom: 5px; color: #495057;">Valor Presente (VP / Capital Inicial):</label>
+    <input type="number" id="monto" value="1000000" placeholder="Ej. 1000000" style="width: 100%; padding: 9px; border-radius: 6px; border: 1px solid #ced4da; box-sizing: border-box; font-size: 14px;">
   </div>
 
   <div style="margin-bottom: 15px;">
-    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Tasa de Interés Anual (%):</label>
-    <input type="number" id="tasa" value="10" step="0.1" style="width: 100%; padding: 9px; border-radius: 6px; border: 1px solid #ced4da; box-sizing: border-box;">
+    <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #495057;">Tasa de Interés Anual (%):</label>
+    <input type="number" id="tasa" value="10" step="0.1" placeholder="Ej. 10" style="width: 100%; padding: 9px; border-radius: 6px; border: 1px solid #ced4da; box-sizing: border-box; font-size: 14px;">
   </div>
 
   <div style="margin-bottom: 20px;">
-    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Plazo (Años):</label>
-    <input type="number" id="anios" value="5" style="width: 100%; padding: 9px; border-radius: 6px; border: 1px solid #ced4da; box-sizing: border-box;">
+    <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #495057;">Plazo (Años):</label>
+    <input type="number" id="anios" value="5" placeholder="Ej. 5" style="width: 100%; padding: 9px; border-radius: 6px; border: 1px solid #ced4da; box-sizing: border-box; font-size: 14px;">
   </div>
 
-  <button onclick="calcularSimulacion()" style="width: 100%; padding: 12px; background-color: #0d6efd; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;">Calcular Ahora</button>
+  <button onclick="calcularSimulacion()" style="width: 100%; padding: 12px; background-color: #0d6efd; color: white; border: none; border-radius: 6px; font-weight: bold; font-size: 15px; cursor: pointer;">Calcular Ahora</button>
 
   <div id="resultado" style="margin-top: 20px; padding: 16px; border-radius: 8px; background-color: #ffffff; border: 1px solid #dee2e6; display: none;">
-    <p style="margin: 0 0 8px 0; font-size: 13px; color: #6c757d;">Resultado estimado:</p>
+    <p style="margin: 0 0 8px 0; font-size: 13px; color: #6c757d; text-transform: uppercase;">Resultado estimado:</p>
     <p style="margin: 0; font-size: 18px; font-weight: bold; color: #198754;"><span id="lblResultadoTitulo">Valor Futuro (VF):</span> <span id="valCalculado">$0</span></p>
     <p style="margin: 6px 0 0 0; font-size: 14px; color: #0d6efd;"><span id="lblDetalleTitulo">Intereses Generados:</span> <span id="valDiferencia">$0</span></p>
   </div>
