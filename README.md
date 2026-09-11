@@ -2,7 +2,6 @@
 
 Un rincón creado para dominar las matemáticas financieras sin dolor de cabeza. Analizamos cómo cambia el valor del dinero con el tiempo a través de explicaciones sencillas sobre interés, capitalización y flujos de efectivo. Incluye una calculadora interactiva para simular inversiones reales en segundos.
 
-### Simulador Interactivo Financiero
 
 <!-- Mini Simulador Interactivo Financiero (VDT) -->
 <div style="max-width: 500px; margin: 30px auto; padding: 25px; border-radius: 12px; background-color: #f8f9fa; border: 1px solid #e9ecef; font-family: Arial, sans-serif; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
