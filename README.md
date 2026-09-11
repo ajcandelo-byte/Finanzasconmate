@@ -18,7 +18,8 @@ $$\Large VF = VP \times (1 + i)^n$$$VF$: Valor Futuro.$VP$: Valor Presente (Capi
 Tasa de interés expresada en formato decimal por periodo.$n$: Número de periodos de capitalización.
 
 # Valor Presente ($VP$)
-Es el valor actual de un monto que se recibirá o pagará en una fecha futura, aplicando una tasa de descuento.$$\Large VP = \frac{VF}{(1 + i)^n}$$
+Es el valor actual de un monto que se recibirá o pagará en una fecha futura, aplicando una tasa de descuento.
+$$\Large VP = \frac{VF}{(1 + i)^n}$$
 
 
 
