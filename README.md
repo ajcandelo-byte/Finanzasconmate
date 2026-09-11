@@ -13,7 +13,9 @@ El valor del dinero cambia de forma continua debido a factores como la inflació
 
 # Fórmulas y Definiciones de Valor Presente y Valor FuturoValor Futuro ($VF$)
 
-Es la suma que alcanzará un capital inicial al término de un tiempo determinado tras aplicarle una tasa de interés.$$\Large VF = VP \times (1 + i)^n$$$VF$: Valor Futuro.$VP$: Valor Presente (Capital inicial).$i$: Tasa de interés expresada en formato decimal por periodo.$n$: Número de periodos de capitalización.
+Es la suma que alcanzará un capital inicial al término de un tiempo determinado tras aplicarle una tasa de interés.
+$$\Large VF = VP \times (1 + i)^n$$$VF$: Valor Futuro.$VP$: Valor Presente (Capital inicial).$i$: 
+Tasa de interés expresada en formato decimal por periodo.$n$: Número de periodos de capitalización.
 
 # Valor Presente ($VP$)
 Es el valor actual de un monto que se recibirá o pagará en una fecha futura, aplicando una tasa de descuento.$$\Large VP = \frac{VF}{(1 + i)^n}$$
