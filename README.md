@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Más allá del Interés: El Valor del Dinero en el Tiempo</title>
   <style>
+
     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
     h1 { color: #1a252c; text-align: center; }
     h2 { color: #0d6efd; border-bottom: 2px solid #e9ecef; padding-bottom: 8px; margin-top: 30px; }
@@ -13,6 +14,7 @@
     .formula { background: #e9ecef; padding: 10px 15px; border-radius: 6px; font-weight: bold; font-family: monospace; }
     ul { margin-bottom: 20px; }
     .citacion { font-style: italic; color: #555; }
+    
     /* Estilos del Simulador */
     .simulador-box { max-width: 500px; margin: 30px auto; padding: 25px; border-radius: 12px; background-color: #f8f9fa; border: 1px solid #e9ecef; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
     .form-group { margin-bottom: 15px; }
