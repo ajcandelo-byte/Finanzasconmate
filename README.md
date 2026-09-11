@@ -7,20 +7,20 @@ Un rincón creado para dominar las matemáticas financieras sin dolor de cabeza.
 # Tasas de Interés, Valor Presente y Valor Futuro en Operaciones Financieras
 Las finanzas personales y corporativas se estructuran sobre un principio básico: el dinero no conserva el mismo valor a lo largo del tiempo. Comprender las variables de tasa de interés, valor presente ($VP$) y valor futuro ($VF$) permite analizar desde un préstamo bancario hasta proyecciones de inversión a largo plazo.
 
-#El Valor del Dinero en el Tiempo (VDT)
+# El Valor del Dinero en el Tiempo (VDT)
 
 El valor del dinero cambia de forma continua debido a factores como la inflación, el riesgo financiero y el costo de oportunidad. Un monto de dinero disponible hoy posee mayor capacidad adquisitiva que esa misma cantidad recibida en el futuro, ya que el capital actual puede invertirse para generar rendimientos.
 
-#Fórmulas y Definiciones de Valor Presente y Valor FuturoValor Futuro ($VF$)
+# Fórmulas y Definiciones de Valor Presente y Valor FuturoValor Futuro ($VF$)
 
 Es la suma que alcanzará un capital inicial al término de un tiempo determinado tras aplicarle una tasa de interés.$$\Large VF = VP \times (1 + i)^n$$$VF$: Valor Futuro.$VP$: Valor Presente (Capital inicial).$i$: Tasa de interés expresada en formato decimal por periodo.$n$: Número de periodos de capitalización.
 
-#Valor Presente ($VP$)
+# Valor Presente ($VP$)
 Es el valor actual de un monto que se recibirá o pagará en una fecha futura, aplicando una tasa de descuento.$$\Large VP = \frac{VF}{(1 + i)^n}$$
 
 
 
-#El Valor del Dinero en el Tiempo (VDT)
+# El Valor del Dinero en el Tiempo (VDT)
 
 El valor del dinero cambia de forma continua debido a factores como la inflación, el riesgo financiero y el costo de oportunidad. Un monto de dinero disponible hoy posee mayor capacidad adquisitiva que esa misma cantidad recibida en el futuro, ya que el capital actual puede invertirse para generar rendimientos.
 
@@ -106,8 +106,7 @@ function calcularSimulacion() {
 </script>
 
 
-#Note
-
+# Note
 Para sustento académico y protección de derechos de autor 
 Gitman, L. J., & Zutter, C. J. (2016). Principios de administración financiera (14.ª ed.). Pearson Educación.
 
