@@ -35,7 +35,7 @@ Un rincón creado para dominar las matemáticas financieras sin dolor de cabeza.
     <p style="margin: 6px 0 0 0; font-size: 14px; color: #0d6efd;"><span id="lblDetalleTitulo">Intereses Generados:</span> <span id="valDiferencia">$0</span></p>
   </div>
 </div>
-
+ 
 <script>
 function cambiarModo() {
   const modo = document.getElementById('tipoCalculo').value;
