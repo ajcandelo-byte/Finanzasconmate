@@ -31,7 +31,7 @@ $$VP = \frac{VF}{(1 + i)^n}$$
 
 ---
 
-## 3. Referencias Académicas (Normas APA 7)
+## 3. Referencias Académicas 
 
 * Gitman, L. J., & Zutter, C. J. (2012). *Principios de administración financiera* (12.ª ed.). Pearson Educación.
 * Redalyc. (2018). *Análisis de las tasas de interés y su impacto en las matemáticas financieras*. Red de Revistas Científicas de América Latina y el Caribe, España y Portugal.
